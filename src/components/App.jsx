@@ -17,7 +17,7 @@ export default class App extends React.Component {
         q: term,
         part: "snippet",
         maxResults: 5,
-        key: API_KEY,
+        key: "API_KEY",
       },
     });
     console.log(response.data.items);
